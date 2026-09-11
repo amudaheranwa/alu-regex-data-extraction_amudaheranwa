@@ -1,0 +1,33 @@
+{
+    "emails": [
+        "alvin.mugisha@alueducation.com",
+        "grace.k@alumni.alueducation.com",
+        "si.coordinator@si.alueducation.com",
+        "billing@fresh-eats.co"
+    ],
+    "alu_emails": [
+        "alvin.mugisha@alueducation.com"
+    ],
+    "alumni_emails": [
+        "grace.k@alumni.alueducation.com"
+    ],
+    "si_emails": [
+        "si.coordinator@si.alueducation.com"
+    ],
+    "urls": [
+        "https://portal.alueducation.com/dashboard?user=alvin&ref=weekly",
+        "http://docs.alueducation.com/onboarding/v2/index.html",
+        "https://legit-looking-site.com/search?q=&x=1"
+    ],
+    "credit_cards": [
+        "**** **** **** 1111",
+        "**** **** **** 0004",
+        "**** **** **** 0000"
+    ],
+    "phone_numbers": [
+        "+250 788 123 456",
+        "078-812-345",
+        "250-788-000",
+        "415-555-019"
+    ]
+}
